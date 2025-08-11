@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+
+  form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 400px;
+    margin: 100px auto;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+  }
+
+  input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+</style>
+</head>
+<body>
+<form action="aps" method="post">
+Product Code:<input type="text" name="pcode">
+Product Name:<input type="text" name="pname">
+Product Company:<input type="text" name="pcompany">
+Product Price:<input type="text" name="pprice">
+Producty Quantity:<input type="text" name="pqty">
+<input type="submit" value="submit">
+</form>
+</body>
+</html>
